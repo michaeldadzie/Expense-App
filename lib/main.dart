@@ -1,3 +1,4 @@
+import './widgets/main_drawer.dart';
 import './widgets/chart.dart';
 import './widgets/transaction_list.dart';
 import './widgets/new_transaction.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Soul Expense',
+      title: 'Soulll Expense',
       theme: ThemeData(
           primarySwatch: Colors.deepPurple,
           accentColor: Colors.deepPurple,
@@ -109,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final PreferredSizeWidget appBar = Platform.isIOS
         ? CupertinoNavigationBar(
             middle: Text(
-              'Soul Expense',
+              'Soulll Expense',
               style: TextStyle(fontFamily: 'OpenSans'),
             ),
             trailing: Row(
@@ -124,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         : AppBar(
             title: Text(
-              'Soul Expense',
+              'Soulll Expense',
               style: TextStyle(fontFamily: 'OpenSans', color: Colors.black),
             ),
             actions: <Widget>[
@@ -196,6 +197,7 @@ class _MyHomePageState extends State<MyHomePage> {
             navigationBar: appBar,
           )
         : Scaffold(
+            drawer: MainDrawer(),
             appBar: appBar,
             body: pageBody,
             floatingActionButtonLocation:
