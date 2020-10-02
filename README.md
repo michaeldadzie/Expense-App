@@ -11,3 +11,9 @@ A personal expense tracker that shows implementation of listview builders,themin
 3. Run `flutter packages get` to install the required packages.
 
 4. use your favourite editor to [run](https://flutter.io/get-started/test-drive/#androidstudio) the app.
+
+# Screenshots
+|  | |  |
+| :---: | --- | :---: |
+| <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/android.png" width="300"> || <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/ios.png" width="300"> |
+|  ||  |
