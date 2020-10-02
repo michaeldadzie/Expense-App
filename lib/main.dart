@@ -197,7 +197,6 @@ class _MyHomePageState extends State<MyHomePage> {
             navigationBar: appBar,
           )
         : Scaffold(
-            drawer: MainDrawer(),
             appBar: appBar,
             body: pageBody,
             floatingActionButtonLocation:
