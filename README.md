@@ -15,5 +15,5 @@ A personal expense tracker that shows implementation of listview builders,themin
 # Screenshots
 |  | |  |
 | :---: | --- | :---: |
-| <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/android.png" width="300"> || <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/ios.png" width="300"> |
+| <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/android.png" width="300"> || <img src="https://github.com/michaeldadzie/Expense-App/blob/master/Screenshots/list.png" width="300"> |
 |  ||  |
